@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">MoneyTrans</string>
+    <string name="description">Convert between popular currencies and review recent conversions saved in Room.</string>
+    <string name="hint_amount">Enter amount</string>
+    <string name="from_currency">From currency</string>
+    <string name="to_currency">To currency</string>
+    <string name="convert">Convert</string>
+    <string name="remember_settings">Remember my last selection</string>
+    <string name="result_placeholder">Your converted total will appear here.</string>
+    <string name="history_title">Recent conversions (Room)</string>
+    <string name="history_item_format">%1$s → %2$s\nRate: %3$s | Input: %4$s | Result: %5$s</string>
+    <string name="error_invalid_amount">Enter a valid amount.</string>
+    <string name="prefs_name">conversion_prefs</string>
+
+    <string-array name="currency_codes">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>CNY</item>
+        <item>INR</item>
+        <item>AUD</item>
+        <item>CAD</item>
+    </string-array>
 </resources>
